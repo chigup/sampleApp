@@ -34,7 +34,7 @@ const MainNav = createStackNavigator(
   },
   {
     //launcher
-    initialRouteName:"dataList"
+    initialRouteName:"loadingScreen"
   }
   
   

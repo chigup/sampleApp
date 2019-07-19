@@ -67,6 +67,12 @@ export default class App extends React.Component {
                 onPress={()=>this.props.navigation.navigate("dataList")}>
                  <Text>go to feed</Text>
                </Button>
+             
+               <Button style={{justifyContent:"center",alignItems:"center",flex:1}}
+               onPress={()=>this.props.navigation.navigate("signInScreen")}>
+                <Text>sign out</Text>
+              </Button>
+              
             </View>
            
         );
